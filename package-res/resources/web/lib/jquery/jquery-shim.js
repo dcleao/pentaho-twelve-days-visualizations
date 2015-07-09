@@ -15,9 +15,7 @@
  * Copyright (c) 2012 Pentaho Corporation..  All rights reserved.
  */
 pen.define([
-    'cdf/jquery',
-], function() {
-    return typeof $      !== 'undefined' ? $      :
-           typeof jQuery !== 'undefined' ? jQuery :
-           null;
+    'cdf/lib/jquery',
+], function($) {
+    return $;
 });

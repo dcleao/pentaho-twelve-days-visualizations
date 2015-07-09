@@ -20,4 +20,4 @@
 // NOTE: root module id must be in sync with that declared in require-js-cfg.js.
 // NOTE: the "!" at the end of the module id is essential,
 //   it instructs amd to load the module as a requirejs plugin.
-analyzerVizPlugins.push("twelveDaysViz/analyzer_plugin!");
+analyzerVizPlugins.push("twelveDaysVizLegacy/analyzer_plugin!");

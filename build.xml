@@ -14,10 +14,10 @@
   <!-- Import the common_build.xml file which contains all the default tasks -->
   <import file="./build-res/subfloor-pkg.xml" />
   
-  <property name="plugin_install_dir" value="twelve-days-visualizations"/>
+  <property name="plugin_install_dir" value="twelve-days-visualizations-legacy"/>
   
   <property name="js.module.script.dir" value="package-res/resources/web"/>
-  <property name="js.module.script.namespace" value="twelveDaysViz"/>
+  <property name="js.module.script.namespace" value="twelveDaysVizLegacy"/>
 
   <import file="./build-res/subfloor-js.xml" />
 

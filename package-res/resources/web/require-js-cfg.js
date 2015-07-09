@@ -1,10 +1,10 @@
 (function() {
     // NOTE: must be in sync with the actual plugin folder name.
-    var pluginId = 'twelve-days-visualizations';
+    var pluginId = 'twelve-days-visualizations-legacy';
 
     // NOTE: `mid` must be in sync with that declared used in analyzer_plugin.
     // NOTE: must be a valid JS identifier.
-    var pluginJsId = 'twelveDaysViz';
+    var pluginJsId = 'twelveDaysVizLegacy';
 
     // AMD module id
     var mid        = pluginJsId;
